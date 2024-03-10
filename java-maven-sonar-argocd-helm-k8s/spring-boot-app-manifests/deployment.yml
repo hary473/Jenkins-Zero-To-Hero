@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: hrj473/spring-boot-mongo:4
+        image: hrj473/spring-boot-mongo:replaceImageTag
         ports:
         - containerPort: 8080
